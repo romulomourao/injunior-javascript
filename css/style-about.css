@@ -1,0 +1,38 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #CFD8DC;
+    line-height: 25px;
+
+}
+
+body{
+    margin: 0 auto;
+    background-color: #455A64;
+}
+
+/* ABOUT*/
+
+.city {
+    float: left;
+    background-color: #448AFF;
+    margin: 10px;
+    padding: 10px;
+    max-width: 200px;
+    height: 200px;
+    overflow: hidden;
+
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: #FFFFFF;
+    padding: 20px 0;
+}
+
+
+p{
+    color: #FFFFFF;
+    padding: 5px 0;
+}
+

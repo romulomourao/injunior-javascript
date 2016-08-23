@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/font-awesome-4.6.3/css/font-awesome.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div id="container">
+            <img src="img/injunior.svg" alt="">
+            <h1>Formulário</h1>
+            <p>Este formulário usa o AJAX para autocompletar<br>
+            os campos do endereço com informações obtidas na API Postmon</p>
+            <input type="text" placeholder="NOME">
+            <input id="cep" type="text" size="8" maxlength="8" placeholder="CEP" required>
+            <input type="text" name="logradouro" placeholder="ENDEREÇO">            
+            <input type="text" name="bairro"placeholder="BAIRRO">
+            <input type="text" name="cidade" placeholder="CIDADE">
+            
+        </div>
+        <script src="js/jquery-3.1.0.min.js"></script>
+        <script src="js/api.js"></script>
+    </body>
+</html>

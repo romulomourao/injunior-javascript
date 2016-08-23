@@ -1,0 +1,189 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #CFD8DC;
+    
+}
+
+body{
+
+    margin: 0 auto;
+    background-color: #455A64;
+}
+
+#container{
+    margin: 0 auto;
+    width: 1000px;
+    position: relative;
+    top: 30px;
+    text-align: center;
+}
+
+nav{
+
+    height: 100px;
+    background-color: #448AFF;
+    margin: auto;
+    
+}
+ul, ol{
+    list-style: none;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 200px;
+}
+
+nav ul{
+    padding: 30px 200px;
+}
+
+li{
+    display: inline-block;
+    width: 96%;
+    height: 38px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 10px;
+   /* background-color: #2196F3;
+   
+    border: none;
+    transition: background-color .5s ease;*/
+    
+}
+
+
+section{
+    width: 600px;
+    
+    
+    padding: 40px 0;
+    margin: auto
+        
+}
+a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+figure{
+    text-align: center;
+}
+
+img{
+   width: 300px;
+}
+p{
+    padding: 20px 0;
+    line-height: 25px;
+}
+
+footer{
+    width: auto;
+    height: 60px;
+    background-color: #448AFF;
+   
+}
+
+
+
+i{
+    font-size: 10px;
+    font-size: 10px;
+    color: #455A64;
+    -webkit-transition: color 0.5s ease;
+    -moz-transition: color 0.5s ease;
+    -o-transition: color 0.5s ease;
+    transition: color 0.5s eas;
+}
+
+
+i:hover{
+    color: white;
+}
+h1{
+    padding: 20px;
+}
+
+input{
+    color: #455A64;
+    font-weight: 700;
+    border: none;
+    width: 540px;
+    height: 40px;
+    padding-left: 10px;
+}
+
+button{
+    font-weight: 700;
+    height: 40px;
+    width: 50px;   
+    background-color: #1976D2;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    transition: background-color .5s ease;
+}
+
+
+
+button:hover {
+    cursor: pointer;
+    background-color: #4CAF50;
+}
+
+.bt-options:hover{
+    cursor: pointer;
+}
+
+span{
+    display: block;
+}
+ .bt-options{
+    float: left;
+    width: 10%;
+    height: 38px;
+    line-height: 38px;
+    position: relative;
+    top:0;
+}
+
+
+.bt-edit{
+    background-color: #4CAF50;
+}
+.bt-remove{
+    background-color: #F44336;
+}
+
+.bt-remove:before{
+    content: 'x'; 
+}
+
+.bt-edit:before{
+    content: "edit";
+
+}
+
+.lista-texto{
+    float: left;
+    position: relative;
+    top:0;
+    width: 80%;
+    height: 38px;
+    background-color: #448AFF;
+    line-height: 38px;
+}
+
+
+
+
+    
+    
